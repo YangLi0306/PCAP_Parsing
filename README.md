@@ -10,7 +10,10 @@ Simple parsing of pcap files using C/C++, parsing the source/destination IP addr
 
 ## Run
 ```shell
-gcc readpcap.c -o pcap -lpcap
+gcc readpcap.c -o readpcap -lpcap  
+```
+```shell
+./readpcap 
 ```
 
 
